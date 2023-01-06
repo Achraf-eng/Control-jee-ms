@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import {SecurityService} from "./services/security.service";
+import {SecurityService} from "../../services/security.service";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-navbar',
+  templateUrl: './navbar.component.html',
+  styleUrls: ['./navbar.component.css']
 })
-export class AppComponent {
-  title = 'ecommerce-front';
+export class NavbarComponent {
   constructor(public securityService:SecurityService) { }
 
   public async ngOnInit() {

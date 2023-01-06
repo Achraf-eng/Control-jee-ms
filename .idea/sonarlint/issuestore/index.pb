@@ -453,12 +453,8 @@ h
 8.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml,5\c\5ce664cc58c5194ea8db9213ac42d70a883eab7c
 k
 ;.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml,0\5\05f0f572ec14610641e0cd7daf36d819e5bcb74a
-w
-Gbilling-service/src/main/java/org/sid/billingservice/entities/Bill.java,4\6\46840d5d25cb55dc6729ebd34ea6a8b3fb7c35ac
 ƒ
 Sbilling-service/src/main/java/org/sid/billingservice/web/BillingRestController.java,6\6\66e0f6bbbe63129330f9fa726c32c2acc7c0082b
-ƒ
-Sbilling-service/src/main/java/org/sid/billingservice/BillingServiceApplication.java,a\9\a9d5a122a773e1d0b8fcf928ec52044912d4ca16
 ˆ
 Xbilling-service/src/test/java/org/sid/billingservice/BillingServiceApplicationTests.java,c\6\c6f1858d4d8eefddc4d09701cda6f3033c9c1875
 …
@@ -469,8 +465,6 @@ Hbilling-service/src/main/java/org/sid/billingservice/model/Customer.java,8\5\8
 [customer-service/src/main/java/org/sid/customerservice/repositories/CustomerRepository.java,4\8\488c362e42c4386cdf3ac19b94e408850611d010
 ‚
 Rbilling-service/src/main/java/org/sid/billingservice/feign/CustomerRestClient.java,c\9\c99253d27df2ca0a3e905a84bce33b88d588897e
-†
-Vcustomer-service/src/main/java/org/sid/customerservice/CustomerServiceApplication.java,a\b\ab8e22af63b1a8b7c69615bfaeef74b8c96dfb41
 ‹
 [customer-service/src/test/java/org/sid/customerservice/CustomerServiceApplicationTests.java,b\2\b22919820ad4b2196927b16d0baa033e3812c730
 ‹
@@ -479,24 +473,16 @@ m
 =gateway/src/main/java/org/sid/gateway/GatewayApplication.java,5\5\5535c79803ec94b254096517f31b5d165df8b172
 r
 Bgateway/src/test/java/org/sid/gateway/GatewayApplicationTests.java,c\3\c38d82aa4d613a657a265d0594929053752ff266
-‰
-Yinventory-service/src/main/java/org/sid/inventoryservice/InventoryServiceApplication.java,3\7\3784965555b5af0362157fa10a8c68a6dcfab580
 Ž
 ^inventory-service/src/test/java/org/sid/inventoryservice/InventoryServiceApplicationTests.java,f\8\f830e9b3bbed0b85e593270218f03e82e8863cce
 G
 billing-service/pom.xml,0\a\0a78fb58baf8cbdb0d6bb17976abb3c23e5f8e18
-H
-customer-service/pom.xml,5\8\5828c3b58c65a5dabc2340b48a37b3e92462b9b0
 ?
 gateway/pom.xml,4\b\4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3
 I
 inventory-service/pom.xml,e\3\e347da292c40d252c508703eddff460d1f378f1c
 w
 Gbilling-service/src/main/java/org/sid/billingservice/model/Product.java,e\2\e21d6e7a68d61e789239c5ddfca5fc63750e3d64
-~
-Ninventory-service/src/main/java/org/sid/inventoryservice/entities/Product.java,f\8\f898a57a316b7abbd5e884fc7d7da81eaf52638c
-~
-Nbilling-service/src/main/java/org/sid/billingservice/entities/ProductItem.java,7\8\78c4ec6c1fd3d9f3f3edebcc85c76e85a606754f
 Œ
 \billing-service/src/main/java/org/sid/billingservice/repositories/ProductItemRepository.java,2\0\20350f622c717880a9a215f593892a70309f035c
 Œ
@@ -535,8 +521,6 @@ w
 G.idea/sonarlint/issuestore/2/8/28add3d17df75cefbfe3cdbad9c90e1e860567f2,6\2\6254e9dfb14bea6a6c13eae2501e965543b039b5
 w
 G.idea/sonarlint/issuestore/a/9/a9c801b0002e911c45bec9dd7436c677f39330f0,8\b\8bce3ceaac2bfaa434f1bf3de3d383b2117937fd
-w
-G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
 w
 G.idea/sonarlint/issuestore/1/0/10d92ceb7d10ae06ec4847d452745bbcd7d6fd8a,d\2\d25268f57f44d1ee3084b72bd3c89cd7b4620f5c
 w
@@ -661,8 +645,6 @@ w
 G.idea/sonarlint/issuestore/b/d/bd490b68048358bced7dd4721c6b0ccc31a2c897,5\e\5e5ee42c3642481f0bffddbeae428eaab8021214
 w
 G.idea/sonarlint/issuestore/8/c/8c50905f7de3549d67341632787fbda4d52652da,f\8\f81ff51522e7bf339d352b91d687c57757fb1cc9
-Q
-!ecommerce-front/package-lock.json,9\7\9789749cc8e1f0c76c917d9d14f4e900acfaddb1
 w
 G.idea/sonarlint/issuestore/a/1/a10ebadf0beb50faf85d495c771d600ce46fcf08,8\5\85a81acb416714c145690773c7e6ff4b2f13f4b9
 w
@@ -691,12 +673,8 @@ w
 G.idea/sonarlint/issuestore/c/9/c99253d27df2ca0a3e905a84bce33b88d588897e,e\3\e34e428763a3ba90bb2da8eb57cae88ff8bf678a
 w
 G.idea/sonarlint/issuestore/0/d/0dd44e3d62bb61b63b586b2e4b5ddfe806b005b4,d\f\df91fda5ba200622b070bb2dce8faed716748879
-L
-ecommerce-front/package.json,5\a\5a5113f5e22f595e6f6724595fc72f8629ba0e5a
 w
 G.idea/sonarlint/issuestore/e/3/e347da292c40d252c508703eddff460d1f378f1c,6\0\603978d6cf2d9b9c9c022b78b453953a969254d6
-N
-ecommerce-front/src/styles.css,e\e\eec8bbd26909c50ea4629c35918e136f8626970c
 w
 G.idea/sonarlint/issuestore/1/8/188a324fddeba1306176fc6e68ffeea4cba00709,7\8\78a34ccd7d457f7d5a4cbe3211bce82d85fe9a11
 w
@@ -920,8 +898,6 @@ G.idea/sonarlint/issuestore/1/f/1f8b9fb954fe58636ba66ebbec53347f6420c4bd,d\4\d4
 w
 G.idea/sonarlint/issuestore/8/5/8565c59587bdbad7aabdef97caa666930e4a7f89,0\7\079a117394b90c9973593bbc7313c66c7f18f295
 w
-G.idea/sonarlint/issuestore/5/8/5828c3b58c65a5dabc2340b48a37b3e92462b9b0,e\f\ef635125edb3649a3ab391d6a0458a49afb7b21d
-w
 G.idea/sonarlint/issuestore/a/2/a26c42f593cb38952475b7988bf45ec9f0833972,7\0\7056579fb69e6286d132679c777f0be34a80fffc
 w
 G.idea/sonarlint/issuestore/8/2/826f3a6ec6c00de15ecd2ed834e5d716d8960718,4\5\4553d451c1e92e44378f731bcf494a6c3623a57f
@@ -1008,8 +984,6 @@ G.idea/sonarlint/issuestore/8/a/8a366680aa0bd4f8a8ebbc2adf36c3da87bd5622,c\e\ce
 w
 G.idea/sonarlint/issuestore/6/1/61fd4918157c43bb5dbdf05064045724fbe374c2,3\3\33082c9bc9bce6cda729605dd123c63d6e9677fb
 w
-G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0e0f9cec86fe4b939ae22be5264c758801eb28f
-w
 G.idea/sonarlint/issuestore/b/7/b78db2e12947e192d90e8c3baff3f7d5dd8c5986,c\7\c7e54af517ea74ee08604029a3142cd07edad103
 w
 G.idea/sonarlint/issuestore/2/b/2b83d90c1fa7d29755ba2aa43a61215a9bcc60c7,0\b\0b67017fff0ae7dac52a557ce14bcaa739e9b39a
@@ -1019,8 +993,6 @@ S
 #ecommerce-front/src/assets/.gitkeep,7\8\78f99ae1a0c62e07b86c4f95ddfd32bf244c5a9b
 ]
 -ecommerce-front/src/app/app.component.spec.ts,2\6\26010e5a9021e47d5592726404c999070866c6da
-X
-(ecommerce-front/src/app/app.component.ts,f\c\fcde3b9af573a3f4044c0aafac11054834f60992
 h
 8ecommerce-front/src/app/pages/bills/bills.component.html,f\3\f3c65d34425ba7d022f373c28e7115230b588483
 k
@@ -1055,3 +1027,7 @@ H
 eureka-discovery/pom.xml,2\0\203159dcff81cdc1b0862907b0cd05ac8b9089f0
 }
 Mcustomer-service/src/main/java/org/sid/customerservice/entities/Customer.java,7\c\7c83875e9315f613a9311808453e20d8e8a15a1d
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+v
+Fecommerce-front/src/app/pages/bills-details/bills-details.component.ts,a\1\a1159fd394465afed4bc88d942c834d8b8ab62a1

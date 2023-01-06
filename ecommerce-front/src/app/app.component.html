@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <nav class="navbar navbar-expand-sm navbar-dark">
   <div class="container-fluid">
     <ul class="navbar-nav">
@@ -16,8 +16,27 @@
           <li><a class="dropdown-item" href="#">A third link</a></li>
         </ul>
       </li>
+      <ul class="navbar-nav float-end">
+        <li class="nav-item">
+          <a class="nav-Link" *ngIf="securityService.profile; else LoginTemplate" >
+            <a>{{securityService.profile.firstName}}</a>
+          </a>
+          <ng-template #LoginTemplate>
+            <a class="btn nav-Link" aria-current="page" (click)="login()">Login</a>
+          </ng-template>
+        </li>
+      </ul>
+      <ul class="navbar-nav float-end">
+        <li class="nav-item">
+            <a class="btn nav-Link" aria-current="page" (click)="onLogout()">Logout</a>
+        </li>
+      </ul>
     </ul>
   </div>
-</nav>
+</nav>-->
+<app-navbar></app-navbar>
+<div class="mt-5">
+  <br>
+  <router-outlet></router-outlet>
+</div>
 
-<router-outlet></router-outlet>

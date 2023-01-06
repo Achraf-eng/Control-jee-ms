@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {Router} from "@angular/router";
 
 @Component({
@@ -16,7 +16,7 @@ export class CustomersComponent implements OnInit {
     this.http.get("http://localhost:8888/CUSTOMER-SERVICE/customers").subscribe({
       next : (data) => {
         this.customers = data;
-        console.log(this.customers._embedded.customers)
+        console.log(this.customers)
       },
       error : (err) => {}
     })

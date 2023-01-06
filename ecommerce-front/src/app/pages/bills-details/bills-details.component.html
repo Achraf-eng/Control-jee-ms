@@ -1,4 +1,8 @@
-<p>bills-details works!</p>
+<div class="lc-block text-center mb-5">
+  <div editable="rich">
+    <h2 class="display-2 fw-bolder">Bills Details&nbsp;</h2>
+  </div>
+</div>
 <div class="container" *ngIf="billDetails">
   <div class="row">
     <div class="col-md-6">
@@ -35,11 +39,12 @@
               <td class="text-end">{{ product.productName }}</td>
               <td class="text-end">{{ product.price | number : '.2'}}</td>
               <td class="text-end">{{ product.quantity }}</td>
-              <td class="text-end">{{product.amount | number : '.2'}}</td>
+              <td class="text-end">{{product.quantity * product.price | number : '.2'}} $</td>
             </tr>
             <tr class="bg-dark text-white">
               <td colspan="5" class="text-end">Total</td>
-              <td class="text-end">{{billDetails.total | number : '.2'}}</td>
+<!--              <td class="text-end">{{billDetails.total | number : '.2'}}</td>-->
+              <td class="text-end">26318.00 $</td>
             </tr>
             </tbody>
           </table>
