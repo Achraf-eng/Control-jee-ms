@@ -44,4 +44,11 @@ Déployer le serveur keycloak :
 
 - Tester les différents modes d'authentification avec Postman en montrant les contenus de Access-Token, Refresh Token
   Sécuriser les micro-services et le frontend angular en déployant les adaptateurs Keycloak
+  
+  1.1
+  
+![image](https://user-images.githubusercontent.com/81491934/213473754-f9141b53-cf10-4c5b-821b-7de93e739396.png)
+
+![image](https://user-images.githubusercontent.com/81491934/213473969-375fd026-e116-45da-9332-0ef135fcbd14.png)
+
   <img width="960" alt="2" src="https://user-images.githubusercontent.com/81491934/212895250-c840b2b0-919a-4a16-861f-0a02c69abb4f.PNG">
